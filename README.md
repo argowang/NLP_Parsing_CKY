@@ -2,6 +2,8 @@
 Use CKY algorithm to parse sentences
 
 ## Introduction
+
+
 The project aims to use CKY algorithm to parse a sentence into corresponding parsing tree.
 
 The original data is fetched from WSJ treebank.
@@ -20,11 +22,15 @@ The file parser.py contains all the code
 
 count_cfg_freq.py is a handy tool to count unary rule, binary rule and nonterms.
 
+
 ### Usage
+
+
 
 There are two ways to call parser.py
 
 #### Change Infrequent Words into _RARE_
+
 
 '''
 python parser.py inputFile outputFile
